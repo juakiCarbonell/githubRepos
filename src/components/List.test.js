@@ -11,7 +11,7 @@ describe('<List />', () => {
 
   it('should render a text if no items are found ', () => {
     const wrapper = shallow(<List items={[]} />);
-    expect(wrapper.text()).toEqual('No items');
+    expect(wrapper.text()).toEqual('No items Found');
   });
   it('should render a list of 2 repositiories if 2 repositories are found', () => {
     const wrapper = shallow(
